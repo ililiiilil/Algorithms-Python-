@@ -1,7 +1,8 @@
 n = int(input())
+x, y = 100, 100
 
 for i in range(n):
-    x, y = 100, 100
+    
     a, b = map(int, input().split())
     
     if a > b:
