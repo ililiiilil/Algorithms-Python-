@@ -1,6 +1,5 @@
 def solution(dartResult):
-    answer = 0
-    return answer
+    ans = 0
 
-    for word in dartResult:
-        
+    for s in dartResult:
+        if s 

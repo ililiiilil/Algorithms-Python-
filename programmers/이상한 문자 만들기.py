@@ -1,16 +1,17 @@
 def solution(s):
+    ans = []
+    s = s.split(' ')
     
     for i in range(len(s)):
-        if s[i] == ' ':
-            continue
+        res = ''
+        for j in range(len(s[i])):
+            if j % 2 == 0:
+                res += s[i][j].upper()
+            else:
+                res += s[i][j].lower()
         
-        elif i % 2 == 0:
-            s[i].upper()
+        ans.append(res)
+    
+    return ' '.join(ans)
 
-        else:
-            s[i].lower()
-
-    return s
-
-print(solution('hi fsdjkfdn'))
         
