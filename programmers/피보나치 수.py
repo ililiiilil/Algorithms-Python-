@@ -7,4 +7,6 @@ def solution(n):
 
     return fibo(n - 1) % 1234567
 
-print(solution(6))
+#재귀함수로는 깊이문제와함께 시간이 너무걸리는듯.
+#새로운 방법 찾아보기
+
